@@ -1,0 +1,98 @@
+/**
+ * Challenge 1 View: Integrated Data Systems Dashboard
+ * S.C.A.L.E 2025 Technical Demo
+ */
+<mvc:View
+    controllerName="com.skylink.airlines.demo.controller.Challenge1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    xmlns:suite="sap.suite.ui.commons">
+
+    <Page title="Challenge 1: Integrated Data Systems" showNavButton="true" navButtonPress="onNavBack">
+        <content>
+            <VBox class="sapUiMediumMargin">
+                
+                <!-- KPI Header Section -->
+                <Panel headerText="Unified Operations Dashboard" class="sapUiResponsiveMargin">
+                    <content>
+                        <!-- TODO: Add KPI tiles showing integrated metrics -->
+                        <TileContainer>
+                            <Tile header="Total Bookings" subheader="Today" press="onBookingsTilePress">
+                                <TileContent>
+                                    <NumericContent value="850" indicator="Up" />
+                                </TileContent>
+                            </Tile>
+                            
+                            <Tile header="Flight Performance" subheader="On-Time %" press="onFlightsTilePress">
+                                <TileContent>
+                                    <NumericContent value="85" indicator="Up" />
+                                </TileContent>
+                            </Tile>
+                            
+                            <Tile header="Aircraft Status" subheader="Available" press="onAircraftTilePress">
+                                <TileContent>
+                                    <NumericContent value="95" indicator="None" />
+                                </TileContent>
+                            </Tile>
+                        </TileContainer>
+                    </content>
+                </Panel>
+
+                <!-- Data Correlation Section -->
+                <Panel headerText="Cross-System Data Correlation" class="sapUiResponsiveMargin">
+                    <content>
+                        <!-- TODO: Add charts showing data relationships -->
+                        <Text text="TODO: Implement correlation charts showing relationships between booking patterns, flight schedules, and maintenance activities" />
+                        
+                        <!-- Placeholder for correlation chart -->
+                        <VBox class="sapUiMediumMargin">
+                            <Title text="Booking vs. Maintenance Impact" level="H3" />
+                            <Text text="Chart showing how maintenance activities affect booking patterns" />
+                        </VBox>
+                    </content>
+                </Panel>
+
+                <!-- Real-time Alerts Section -->
+                <Panel headerText="Real-time System Alerts" class="sapUiResponsiveMargin">
+                    <content>
+                        <!-- TODO: Add alert list with real-time updates -->
+                        <List id="alertsList" headerText="Active Alerts">
+                            <StandardListItem 
+                                title="Data Sync Delay" 
+                                description="Maintenance system sync delayed by 5 minutes"
+                                type="Active"
+                                press="onAlertPress" />
+                            <StandardListItem 
+                                title="Booking Spike Detected" 
+                                description="Unusual booking pattern on LAX-JFK route"
+                                type="Active" 
+                                press="onAlertPress" />
+                        </List>
+                    </content>
+                </Panel>
+
+                <!-- Integration Status Section -->
+                <Panel headerText="System Integration Status" class="sapUiResponsiveMargin">
+                    <content>
+                        <!-- TODO: Add system health indicators -->
+                        <VBox>
+                            <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                <Text text="Booking System" />
+                                <ObjectStatus text="Connected" state="Success" />
+                            </HBox>
+                            <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                <Text text="Flight Operations" />
+                                <ObjectStatus text="Connected" state="Success" />
+                            </HBox>
+                            <HBox justifyContent="SpaceBetween" class="sapUiSmallMarginBottom">
+                                <Text text="Maintenance System" />
+                                <ObjectStatus text="Delayed" state="Warning" />
+                            </HBox>
+                        </VBox>
+                    </content>
+                </Panel>
+
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>

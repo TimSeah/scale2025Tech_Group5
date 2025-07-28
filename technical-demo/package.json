@@ -1,0 +1,27 @@
+{
+  "name": "skylink-airlines-demo",
+  "version": "1.0.0",
+  "description": "SkyLink Airlines Digital Transformation Demo - S.C.A.L.E 2025",
+  "main": "index.js",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build",
+    "test": "echo \"TODO: Add test scripts\"",
+    "lint": "echo \"TODO: Add linting\""
+  },
+  "dependencies": {
+    "@sap/ui5-builder": "^3.0.0",
+    "@sap/ui5-cli": "^3.0.0"
+  },
+  "devDependencies": {
+    "@sap/ui5-tooling": "^3.0.0"
+  },
+  "keywords": [
+    "SAP UI5",
+    "Airlines",
+    "Digital Transformation",
+    "SCALE 2025"
+  ],
+  "author": "Team Group 5",
+  "license": "MIT"
+}

@@ -1,0 +1,50 @@
+{
+  "routing": {
+    "config": {
+      "routerClass": "sap.m.routing.Router",
+      "viewType": "XML",
+      "path": "com.skylink.airlines.demo.view",
+      "controllerPath": "com.skylink.airlines.demo.controller"
+    },
+    "routes": [
+      {
+        "pattern": "",
+        "name": "main",
+        "target": "main"
+      },
+      {
+        "pattern": "challenge1",
+        "name": "challenge1", 
+        "target": "challenge1"
+      },
+      {
+        "pattern": "challenge2",
+        "name": "challenge2",
+        "target": "challenge2"
+      },
+      {
+        "pattern": "challenge3", 
+        "name": "challenge3",
+        "target": "challenge3"
+      }
+    ],
+    "targets": {
+      "main": {
+        "viewId": "main",
+        "viewName": "Main"
+      },
+      "challenge1": {
+        "viewId": "challenge1",
+        "viewName": "Challenge1"
+      },
+      "challenge2": {
+        "viewId": "challenge2", 
+        "viewName": "Challenge2"
+      },
+      "challenge3": {
+        "viewId": "challenge3",
+        "viewName": "Challenge3"
+      }
+    }
+  }
+}

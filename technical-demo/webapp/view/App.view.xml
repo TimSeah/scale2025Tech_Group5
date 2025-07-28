@@ -1,0 +1,49 @@
+<mvc:View
+    controllerName="com.skylink.airlines.demo.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m">
+    
+    <!-- Main App Shell -->
+    <Shell id="shell">
+        <App id="app">
+            <!-- TODO: Main navigation and content will be added here -->
+            
+            <!-- Header Bar -->
+            <pages>
+                <Page id="mainPage" title="SkyLink Airlines - Digital Operations Hub">
+                    <content>
+                        <!-- TODO: Add main dashboard content -->
+                        <Text text="SkyLink Airlines Digital Transformation Demo - Coming Soon!" />
+                        
+                        <!-- Placeholder for Challenge Solutions -->
+                        <VBox class="sapUiMediumMargin">
+                            <Title text="Challenge Solutions" level="H2" />
+                            
+                            <!-- Challenge 1: Data Integration -->
+                            <Panel headerText="Challenge 1: Integrated Data Systems" class="sapUiResponsiveMargin">
+                                <content>
+                                    <Text text="TODO: Implement unified data dashboard showing integrated booking, scheduling, and maintenance data" />
+                                </content>
+                            </Panel>
+                            
+                            <!-- Challenge 2: Forecasting & Pricing -->
+                            <Panel headerText="Challenge 2: AI-Powered Forecasting & Dynamic Pricing" class="sapUiResponsiveMargin">
+                                <content>
+                                    <Text text="TODO: Implement demand forecasting charts and dynamic pricing controls" />
+                                </content>
+                            </Panel>
+                            
+                            <!-- Challenge 3: Predictive Maintenance -->
+                            <Panel headerText="Challenge 3: Predictive Maintenance System" class="sapUiResponsiveMargin">
+                                <content>
+                                    <Text text="TODO: Implement maintenance scheduling and aircraft status monitoring" />
+                                </content>
+                            </Panel>
+                        </VBox>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

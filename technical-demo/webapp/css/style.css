@@ -1,0 +1,86 @@
+/* 
+ * Custom CSS for SkyLink Airlines Demo
+ * S.C.A.L.E 2025 Technical Demo
+ */
+
+/* TODO: Add custom styling for airline branding */
+
+/* Main App Styling */
+.skylink-app {
+    /* TODO: Add main app container styles */
+}
+
+/* Challenge Panel Styling */
+.challenge-panel {
+    /* TODO: Style challenge solution panels */
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+}
+
+/* Dashboard Components */
+.dashboard-tile {
+    /* TODO: Style dashboard tiles for KPIs */
+}
+
+.chart-container {
+    /* TODO: Style chart containers */
+    padding: 1rem;
+}
+
+/* Data Integration Styles (Challenge 1) */
+.integrated-dashboard {
+    /* TODO: Styles for unified data views */
+}
+
+.data-source-indicator {
+    /* TODO: Visual indicators for different data sources */
+}
+
+/* Forecasting & Pricing Styles (Challenge 2) */
+.forecast-chart {
+    /* TODO: Styles for forecasting visualizations */
+}
+
+.pricing-controls {
+    /* TODO: Styles for dynamic pricing controls */
+}
+
+/* Maintenance Styles (Challenge 3) */
+.aircraft-status {
+    /* TODO: Styles for aircraft status indicators */
+}
+
+.maintenance-alert {
+    /* TODO: Styles for maintenance alerts */
+}
+
+.predictive-indicator {
+    /* TODO: Styles for predictive maintenance indicators */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* TODO: Mobile responsive styles */
+}
+
+@media (min-width: 1200px) {
+    /* TODO: Desktop enhancement styles */
+}
+
+/* SAP Fiori Theme Customizations */
+.sapMPanel .sapMPanelContent {
+    /* TODO: Panel content customizations */
+}
+
+.sapMTile {
+    /* TODO: Tile customizations */
+}
+
+/* Animation and Transitions */
+.fade-in {
+    /* TODO: Fade in animations for loading states */
+}
+
+.slide-transition {
+    /* TODO: Smooth transitions between views */
+}
