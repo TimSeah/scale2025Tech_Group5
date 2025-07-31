@@ -1,0 +1,41 @@
+maintenance_id,aircraft_id,maintenance_type,scheduled_date,completion_date,technician_id,status,cost_usd,description,next_due_date,compliance_status,parts_used
+MNT001,AC001,A-Check,2025-06-01,2025-06-01,TEC001,Completed,8500,Routine inspection and minor repairs,2025-09-01,Compliant,Oil filter; Brake pads; Wiring harness
+MNT002,AC002,C-Check,2025-06-15,2025-06-18,TEC002,Completed,125000,Major structural inspection,2025-12-15,Compliant,Engine mount; Landing gear components; Avionics unit
+MNT003,AC003,B-Check,2025-06-10,2025-06-11,TEC003,Completed,35000,Intermediate maintenance check,2025-10-10,Compliant,Hydraulic seals; Flight control cables; Oxygen system
+MNT004,AC004,A-Check,2025-06-20,2025-06-20,TEC004,Completed,9200,Routine inspection and service,2025-09-20,Compliant,Tire replacement; Battery check; Navigation lights
+MNT005,AC005,Unscheduled,2025-06-25,2025-06-26,TEC005,Completed,15600,Emergency repair of hydraulic system,2025-07-25,Compliant,Hydraulic pump; Pressure sensors; Fluid lines
+MNT006,AC006,A-Check,2025-07-01,2025-07-01,TEC001,Completed,8800,Routine maintenance and inspection,2025-10-01,Compliant,Air filter; Spark plugs; Control surfaces
+MNT007,AC007,B-Check,2025-07-05,2025-07-06,TEC006,Completed,42000,Comprehensive systems check,2025-11-05,Compliant,Fuel system components; Electrical wiring; Safety equipment
+MNT008,AC008,A-Check,2025-07-10,2025-07-10,TEC002,Completed,7900,Standard maintenance procedure,2025-10-10,Compliant,Oil change; Brake inspection; Radio equipment
+MNT009,AC009,Unscheduled,2025-07-15,2025-07-16,TEC007,Completed,22400,Repair of cabin pressurization system,2025-08-15,Compliant,Pressure valves; Environmental control unit; Seals
+MNT010,AC010,A-Check,2025-07-20,2025-07-20,TEC003,Completed,9100,Routine inspection and service,2025-10-20,Compliant,Windshield wipers; Interior lighting; Emergency slides
+MNT011,AC011,C-Check,2025-07-01,2025-07-05,TEC008,Completed,138000,Heavy maintenance inspection,2026-01-01,Compliant,Engine overhaul; Structural components; Avionics upgrade
+MNT012,AC012,B-Check,2025-07-25,2025-07-26,TEC004,Completed,38500,Intermediate maintenance check,2025-11-25,Compliant,Landing gear service; Flight instruments; Communication systems
+MNT013,AC013,A-Check,2025-08-01,2025-08-01,TEC005,Completed,8300,Routine maintenance and inspection,2025-11-01,Compliant,Fuel filters; Navigation equipment; Safety systems
+MNT014,AC014,Unscheduled,2025-08-05,2025-08-06,TEC009,Completed,18900,Repair of engine warning system,2025-09-05,Compliant,Warning sensors; Display units; Wiring harness
+MNT015,AC015,A-Check,2025-08-10,2025-08-10,TEC001,Completed,8700,Standard maintenance procedure,2025-11-10,Compliant,Tire rotation; Fluid levels; Exterior lights
+MNT016,AC016,B-Check,2025-08-15,2025-08-16,TEC006,Completed,41200,Comprehensive systems inspection,2025-12-15,Compliant,Autopilot system; Fuel pumps; Interior components
+MNT017,AC017,A-Check,2025-08-20,2025-08-20,TEC002,Completed,8950,Routine inspection and service,2025-11-20,Compliant,Battery replacement; Control surfaces; Emergency equipment
+MNT018,AC018,Unscheduled,2025-08-25,2025-08-26,TEC010,Completed,16800,Repair of air conditioning system,2025-09-25,Compliant,Compressor unit; Ducting; Temperature sensors
+MNT019,AC019,A-Check,2025-09-01,2025-09-01,TEC003,Scheduled,8600,Routine maintenance and inspection,2025-12-01,Pending,Scheduled parts list pending
+MNT020,AC020,C-Check,2025-09-10,NULL,TEC007,Scheduled,145000,Major structural and systems inspection,2026-03-10,Pending,Comprehensive parts package scheduled
+MNT021,AC021,B-Check,2025-09-05,NULL,TEC008,Scheduled,39800,Intermediate maintenance check,2026-01-05,Pending,Systems components scheduled
+MNT022,AC022,A-Check,2025-09-15,NULL,TEC004,Scheduled,8400,Standard maintenance procedure,2025-12-15,Pending,Routine parts package
+MNT023,AC023,Unscheduled,2025-08-30,2025-08-31,TEC011,Completed,14200,Repair of cargo door mechanism,2025-09-30,Compliant,Door actuators; Sealing components; Control wiring
+MNT024,AC024,A-Check,2025-09-20,NULL,TEC005,Scheduled,8750,Routine inspection and service,2025-12-20,Pending,Standard maintenance parts
+MNT025,AC025,B-Check,2025-09-25,NULL,TEC009,Scheduled,36900,Comprehensive systems check,2026-01-25,Pending,Systems and component package
+MNT026,AC026,A-Check,2025-10-01,NULL,TEC001,Scheduled,8500,Routine maintenance and inspection,2026-01-01,Pending,Routine inspection parts
+MNT027,AC027,Unscheduled,2025-09-08,2025-09-09,TEC012,Completed,19600,Repair of flight management system,2025-10-08,Compliant,Computer modules; Display screens; Interface units
+MNT028,AC028,A-Check,2025-10-05,NULL,TEC006,Scheduled,8650,Standard maintenance procedure,2026-01-05,Pending,Standard parts package
+MNT029,AC029,C-Check,2025-10-15,NULL,TEC013,Scheduled,142000,Heavy maintenance inspection,2026-04-15,Pending,Major overhaul components
+MNT030,AC030,B-Check,2025-10-10,NULL,TEC002,Scheduled,40200,Intermediate maintenance check,2026-02-10,Pending,Intermediate systems package
+MNT031,AC031,A-Check,2025-10-20,NULL,TEC003,Scheduled,8800,Routine inspection and service,2026-01-20,Pending,Routine service parts
+MNT032,AC032,Unscheduled,2025-09-18,2025-09-19,TEC014,Completed,17400,Repair of weather radar system,2025-10-18,Compliant,Radar antenna; Processing unit; Display interface
+MNT033,AC033,A-Check,2025-10-25,NULL,TEC007,Scheduled,8550,Standard maintenance procedure,2026-01-25,Pending,Standard maintenance parts
+MNT034,AC034,B-Check,2025-11-01,NULL,TEC008,Scheduled,38700,Comprehensive systems inspection,2026-03-01,Pending,Systems inspection package
+MNT035,AC035,A-Check,2025-11-05,NULL,TEC004,Scheduled,8450,Routine maintenance and inspection,2026-02-05,Pending,Routine parts list
+MNT036,AC036,Unscheduled,2025-09-28,2025-09-29,TEC015,Completed,21200,Repair of galley electrical system,2025-10-28,Compliant,Electrical panels; Wiring harness; Circuit breakers
+MNT037,AC037,A-Check,2025-11-10,NULL,TEC005,Scheduled,8700,Standard maintenance procedure,2026-02-10,Pending,Standard service package
+MNT038,AC038,C-Check,2025-11-20,NULL,TEC009,Scheduled,148000,Major structural inspection,2026-05-20,Pending,Structural overhaul components
+MNT039,AC039,B-Check,2025-11-15,NULL,TEC001,Scheduled,41500,Intermediate maintenance check,2026-03-15,Pending,Intermediate maintenance package
+MNT040,AC040,A-Check,2025-11-25,NULL,TEC006,Scheduled,8600,Routine inspection and service,2026-02-25,Pending,Routine inspection parts

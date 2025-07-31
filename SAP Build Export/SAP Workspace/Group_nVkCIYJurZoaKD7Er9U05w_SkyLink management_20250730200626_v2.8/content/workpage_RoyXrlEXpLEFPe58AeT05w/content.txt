@@ -1,0 +1,18 @@
+﻿{
+  "title": "Aircraft Management",
+  "creator": {
+    "uuid": "oIBhuyhZSr9HBAH30k205w",
+    "email": "ac208289u15@sapexperienceacademy.com",
+    "firstname": "AC208289U15",
+    "lastname": "AC208289U15",
+    "sync_id": "oIBhuyhZSr9HBAH30k205w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1,
+    "admin_type": "group_admin"
+  },
+  "content_item_type": "WorkPage",
+  "is_deleted": false,
+  "is_viewable": false,
+  "is_editable": false
+}

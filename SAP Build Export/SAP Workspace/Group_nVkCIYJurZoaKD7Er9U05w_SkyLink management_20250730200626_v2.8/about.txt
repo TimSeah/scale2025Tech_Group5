@@ -1,0 +1,29 @@
+﻿{
+  "name": "SkyLink management",
+  "description": "",
+  "acl": true,
+  "is_cross_company": false,
+  "created_at": "2025-07-29 02:32:31 UTC",
+  "creator": {
+    "uuid": "oIBhuyhZSr9HBAH30k205w",
+    "email": "ac208289u15@sapexperienceacademy.com",
+    "firstname": "AC208289U15",
+    "lastname": "AC208289U15",
+    "sync_id": "oIBhuyhZSr9HBAH30k205w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1,
+    "admin_type": "group_admin"
+  },
+  "invite_policy": "followers",
+  "upload_policy": "followers",
+  "control_level": "full_participation",
+  "about_wiki_id": null,
+  "landing": "wiki",
+  "group_template_name": "team_workspace_template",
+  "group_type": "user_created",
+  "ex_obj": null,
+  "scope": "replication",
+  "version": "2.8",
+  "background_reposition": null
+}

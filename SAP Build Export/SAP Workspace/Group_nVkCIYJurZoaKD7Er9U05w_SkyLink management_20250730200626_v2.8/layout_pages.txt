@@ -1,0 +1,279 @@
+﻿[
+  {
+    "title": "Aircraft Management",
+    "tab_title": "Aircraft Management",
+    "tab_locallized_title": {
+      "DEFAULT": "Aircraft Management"
+    },
+    "localized_title": {
+      "DEFAULT": "Aircraft Management"
+    },
+    "creator": {
+      "uuid": "oIBhuyhZSr9HBAH30k205w",
+      "email": "ac208289u15@sapexperienceacademy.com",
+      "firstname": "AC208289U15",
+      "lastname": "AC208289U15",
+      "sync_id": "oIBhuyhZSr9HBAH30k205w",
+      "featured": false,
+      "is_puppet": false,
+      "company_id": 1,
+      "admin_type": "group_admin"
+    },
+    "content": {
+      "rows": [
+        {
+          "id": "dws-row-mdnxkggq",
+          "columns": [
+            {
+              "id": "dws-column-mdnxkggr",
+              "cells": [
+                {
+                  "id": "dws-cell-mdnxkggs",
+                  "descriptor": {
+                    "value": {
+                      "mode": ""
+                    },
+                    "schemaVersion": "3.2"
+                  },
+                  "widgets": [
+                    {
+                      "visualization": {
+                        "id": "text"
+                      },
+                      "id": "dws-widget-mdnxryik",
+                      "configuration": {
+                        "settings": {
+                          "type": "text",
+                          "title": {
+                            "DEFAULT": ""
+                          },
+                          "content": {
+                            "DEFAULT": "<p>Manage SkyLink insights and aircraft maintenance using our system.</p>"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "visualization": {
+                        "id": "image"
+                      },
+                      "id": "dws-widget-mdnxx906",
+                      "configuration": {
+                        "settings": {
+                          "type": "image",
+                          "captionAlignment": "left",
+                          "captionPosition": "inline",
+                          "height": 360,
+                          "width": 768,
+                          "rawWidth": 768,
+                          "widthAtSave": 1171.73,
+                          "autoFit": false,
+                          "offset": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "scale": 1.5256999999999998,
+                          "cropHeight": 436.83335876464844,
+                          "centerStatus": "ready",
+                          "caption_bg_opacity": 100,
+                          "embeddedParam": "FkWEekQDoA3QvwrhgS805w",
+                          "title": {
+                            "DEFAULT": ""
+                          },
+                          "caption": {
+                            "DEFAULT": ""
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "visualization": {
+                        "id": "action"
+                      },
+                      "configuration": {
+                        "settings": {
+                          "type": "action",
+                          "question_folder_id": "",
+                          "idea_folder_id": "",
+                          "discussion_folder_id": "",
+                          "file_folder_id": "",
+                          "video_folder_id": "",
+                          "blog_folder_id": "",
+                          "wiki_folder_id": "",
+                          "poll_folder_id": "",
+                          "content_playlist_folder_id": "",
+                          "disabled_actions": [
+                            "discussion",
+                            "post",
+                            "event",
+                            "invite",
+                            "task",
+                            "article",
+                            "file",
+                            "video",
+                            "blog",
+                            "wiki",
+                            "content_playlist",
+                            "poll"
+                          ],
+                          "title": {
+                            "DEFAULT": "Add your questions and ideas"
+                          }
+                        }
+                      },
+                      "id": "dws-widget-mdnyjnj3"
+                    },
+                    {
+                      "visualization": {
+                        "id": "forum"
+                      },
+                      "configuration": {
+                        "settings": {
+                          "type": "forum",
+                          "title": "What would you like to know?",
+                          "limit": "3",
+                          "sort_mode": "last_activity",
+                          "filters": "all",
+                          "tags": "",
+                          "group_ids": null,
+                          "tag_filters": "{\"include\":[],\"exclude\":[]}",
+                          "width": "320",
+                          "height": "180"
+                        }
+                      },
+                      "id": "dws-widget-mdnyledu"
+                    },
+                    {
+                      "visualization": {
+                        "id": "feed"
+                      },
+                      "configuration": {
+                        "settings": {
+                          "type": "feed",
+                          "title": "All Feed Events",
+                          "limit": "3",
+                          "display_mode": "standard",
+                          "filters": "all",
+                          "tags": "",
+                          "group_ids": null,
+                          "tag_filters": "{\"include\":[],\"exclude\":[]}",
+                          "width": "400",
+                          "height": "180"
+                        }
+                      },
+                      "id": "dws-widget-mdnymljj"
+                    },
+                    {
+                      "visualization": {
+                        "id": "image"
+                      },
+                      "id": "dws-widget-mdo3w5ug",
+                      "configuration": {
+                        "settings": {
+                          "type": "image",
+                          "captionAlignment": "left",
+                          "captionPosition": "overlay",
+                          "height": 480,
+                          "width": 640,
+                          "rawWidth": 640,
+                          "widthAtSave": 1171.73,
+                          "autoFit": true,
+                          "offset": {
+                            "x": 0,
+                            "y": 0
+                          },
+                          "scale": 1.8308385406249996,
+                          "cropHeight": 878.8024994999998,
+                          "centerStatus": "center",
+                          "imageTileMode": "default-mode",
+                          "caption_bg_opacity": "0",
+                          "hyperlink": "https://sap-build-us10-trial.preview.us10.apps.build.cloud.sap/328789/create-aircraft-maintenance-scale-group-5/page.Page1",
+                          "embeddedParam": "h5CfH8isRACGLLNJTcC05w",
+                          "title": {
+                            "DEFAULT": ""
+                          },
+                          "caption": {
+                            "DEFAULT": "Maintenance Documentation"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ],
+              "descriptor": {
+                "value": {
+                  "columnWidth": 24
+                },
+                "schemaVersion": "3.2"
+              }
+            }
+          ],
+          "descriptor": {
+            "value": {
+              "title": "",
+              "info": ""
+            },
+            "schemaVersion": "3.2"
+          }
+        }
+      ],
+      "optimize_page_layout": true,
+      "show_tile": true,
+      "show_empty_widgets": false,
+      "schema_version": "3.2",
+      "announcement_enabled": false
+    },
+    "uuid": "RoyXrlEXpLEFPe58AeT05w",
+    "id": 898,
+    "tab_id": 1779,
+    "type": "WorkPage",
+    "tab_type": "WorkpageGroupNavTab",
+    "updated_at": "2025-07-29 05:42:21 UTC",
+    "embedded_images": [
+      {
+        "id": "FkWEekQDoA3QvwrhgS805w",
+        "content_type": "image/jpeg",
+        "filename": "airline.jpg"
+      },
+      {
+        "id": "h5CfH8isRACGLLNJTcC05w",
+        "content_type": "image/jpeg",
+        "filename": "technician.jpg"
+      }
+    ],
+    "children": [
+
+    ]
+  },
+  {
+    "title": "Forums",
+    "tab_title": "Forums",
+    "creator": {
+      "uuid": "oIBhuyhZSr9HBAH30k205w",
+      "email": "ac208289u15@sapexperienceacademy.com",
+      "firstname": "AC208289U15",
+      "lastname": "AC208289U15",
+      "sync_id": "oIBhuyhZSr9HBAH30k205w",
+      "featured": false,
+      "is_puppet": false,
+      "company_id": 1,
+      "admin_type": "group_admin"
+    },
+    "content": {
+    },
+    "uuid": "epAKZjm3PHpTmCBf4p605w",
+    "id": 1198,
+    "tab_id": 1780,
+    "type": "Link",
+    "tab_type": "InternalGroupPageNavTab",
+    "url": "/groups/nVkCIYJurZoaKD7Er9U05w/forums",
+    "updated_at": "2025-07-29 03:06:51 UTC",
+    "embedded_images": [
+
+    ],
+    "children": [
+
+    ]
+  }
+]

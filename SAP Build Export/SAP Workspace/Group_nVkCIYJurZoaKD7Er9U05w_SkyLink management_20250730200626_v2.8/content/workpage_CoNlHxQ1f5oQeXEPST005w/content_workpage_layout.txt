@@ -1,0 +1,164 @@
+﻿{
+  "title": "Overview",
+  "localized_title": {
+    "DEFAULT": "Overview"
+  },
+  "creator": {
+    "uuid": "oIBhuyhZSr9HBAH30k205w",
+    "email": "ac208289u15@sapexperienceacademy.com",
+    "firstname": "AC208289U15",
+    "lastname": "AC208289U15",
+    "sync_id": "oIBhuyhZSr9HBAH30k205w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1,
+    "admin_type": "group_admin"
+  },
+  "content": {
+    "rows": [
+      {
+        "columns": [
+          {
+            "columns": 12,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "image",
+                "jamSource": "/images/templates/team_workspace_cut.jpg",
+                "captionAlignment": "left",
+                "captionPosition": "overlay",
+                "caption_bg_opacity": 100,
+                "caption": {
+                  "DEFAULT": "Team Workspace"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "columns": 8,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "action",
+                "disabled_actions": [
+                  "question",
+                  "idea",
+                  "discussion",
+                  "post",
+                  "event",
+                  "invite",
+                  "task",
+                  "article",
+                  "video",
+                  "blog",
+                  "wiki",
+                  "content_playlist",
+                  "poll"
+                ],
+                "title": {
+                  "DEFAULT": "Actions"
+                }
+              },
+              {
+                "type": "content",
+                "limit": "3",
+                "display_mode": "list",
+                "sort_mode": "updated_at",
+                "filters": "all",
+                "tags": "",
+                "title": {
+                  "DEFAULT": "Last Updated"
+                }
+              }
+            ]
+          },
+          {
+            "columns": 4,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "people",
+                "limit": "5",
+                "display_mode": "list",
+                "filters": "featured",
+                "tags": "",
+                "title": {
+                  "DEFAULT": "Recently Joined Members"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "columns": 8,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "content",
+                "limit": "7",
+                "display_mode": "list",
+                "sort_mode": "title",
+                "filters": "folder",
+                "tags": "",
+                "title": {
+                  "DEFAULT": "Folders"
+                }
+              }
+            ]
+          },
+          {
+            "columns": 4,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "forum",
+                "limit": "7",
+                "sort_mode": "last_activity",
+                "filters": "all",
+                "tags": "",
+                "title": {
+                  "DEFAULT": "Forum"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          {
+            "columns": 12,
+            "hasWidget": true,
+            "widgets": [
+              {
+                "type": "feed",
+                "limit": "1",
+                "display_mode": "standard",
+                "filters": "all",
+                "tags": "",
+                "title": {
+                  "DEFAULT": "All Feed Events"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "uuid": "CoNlHxQ1f5oQeXEPST005w",
+  "id": 896,
+  "type": "WorkPage",
+  "updated_at": "2025-07-29 02:32:32 UTC",
+  "embedded_images": "",
+  "children": [
+
+  ]
+}

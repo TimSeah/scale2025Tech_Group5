@@ -1,0 +1,33 @@
+﻿[
+  {
+    "uuid": "oIBhuyhZSr9HBAH30k205w",
+    "email": "ac208289u15@sapexperienceacademy.com",
+    "firstname": "AC208289U15",
+    "lastname": "AC208289U15",
+    "sync_id": "oIBhuyhZSr9HBAH30k205w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1,
+    "admin_type": "group_admin"
+  },
+  {
+    "uuid": "OL8Hxr6sfiWgfQJ8KMs05w",
+    "email": "ac208289u16@sapexperienceacademy.com",
+    "firstname": "AC208289U16",
+    "lastname": "AC208289U16",
+    "sync_id": "OL8Hxr6sfiWgfQJ8KMs05w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1
+  },
+  {
+    "uuid": "qSuEhfkFWDf55jfQRN205w",
+    "email": "ac208289u14@sapexperienceacademy.com",
+    "firstname": "AC208289U14",
+    "lastname": "AC208289U14",
+    "sync_id": "qSuEhfkFWDf55jfQRN205w",
+    "featured": false,
+    "is_puppet": false,
+    "company_id": 1
+  }
+]

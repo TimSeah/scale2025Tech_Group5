@@ -1,0 +1,51 @@
+booking_id,passenger_name,flight_id,booking_date,travel_date,origin,destination,class_of_service,price,payment_status,loyalty_tier,booking_channel,lead_time_days,passenger_type
+BK001,John Smith,SL101,2025-06-15,2025-07-20,LAX,JFK,Economy,425,Confirmed,Gold,Online,35,Business
+BK002,Emily Johnson,SL102,2025-06-16,2025-07-21,JFK,LAX,Business,1250,Confirmed,Platinum,Mobile App,35,Business
+BK003,Michael Brown,SL103,2025-06-17,2025-07-22,LAX,LHR,Economy,650,Confirmed,Silver,Call Center,35,Leisure
+BK004,Sarah Davis,SL104,2025-06-18,2025-07-23,LHR,LAX,Premium Economy,950,Confirmed,None,Online,35,Leisure
+BK005,David Wilson,SL105,2025-06-19,2025-07-24,JFK,CDG,Economy,475,Pending,Bronze,Online,35,Business
+BK006,Lisa Anderson,SL106,2025-06-20,2025-07-25,CDG,JFK,Business,1180,Confirmed,Gold,Travel Agent,35,Business
+BK007,Robert Taylor,SL107,2025-06-21,2025-07-26,LAX,NRT,Economy,580,Confirmed,Silver,Online,35,Leisure
+BK008,Jennifer White,SL108,2025-06-22,2025-07-27,NRT,LAX,Economy,620,Confirmed,None,Mobile App,35,Leisure
+BK009,Christopher Lee,SL109,2025-06-23,2025-07-28,JFK,DXB,Business,1750,Confirmed,Platinum,Online,35,Business
+BK010,Amanda Martinez,SL110,2025-06-24,2025-07-29,DXB,JFK,Economy,890,Confirmed,Gold,Online,35,Business
+BK011,Matthew Garcia,SL111,2025-06-25,2025-07-30,LAX,SYD,Premium Economy,1200,Confirmed,Silver,Online,35,Leisure
+BK012,Jessica Rodriguez,SL112,2025-06-26,2025-07-31,SYD,LAX,Economy,1150,Pending,Bronze,Call Center,35,Leisure
+BK013,Daniel Hernandez,SL113,2025-06-27,2025-08-01,JFK,FRA,Economy,520,Confirmed,None,Online,35,Business
+BK014,Ashley Lopez,SL114,2025-06-28,2025-08-02,FRA,JFK,Business,1320,Confirmed,Platinum,Mobile App,35,Business
+BK015,Joshua Gonzalez,SL115,2025-06-29,2025-08-03,LAX,ICN,Economy,680,Confirmed,Gold,Online,35,Leisure
+BK016,Stephanie Wilson,SL116,2025-06-30,2025-08-04,ICN,LAX,Economy,720,Confirmed,Silver,Online,35,Leisure
+BK017,Ryan Clark,SL117,2025-07-01,2025-08-05,JFK,BCN,Economy,480,Confirmed,Bronze,Travel Agent,35,Leisure
+BK018,Nicole Lewis,SL118,2025-07-02,2025-08-06,BCN,JFK,Premium Economy,780,Confirmed,Gold,Online,35,Business
+BK019,Kevin Walker,SL119,2025-07-03,2025-08-07,LAX,AMS,Economy,590,Pending,None,Online,35,Business
+BK020,Rachel Hall,SL120,2025-07-04,2025-08-08,AMS,LAX,Business,1280,Confirmed,Platinum,Mobile App,35,Business
+BK021,Brandon Young,SL121,2025-07-05,2025-08-09,JFK,ZUR,Economy,550,Confirmed,Silver,Online,35,Business
+BK022,Megan Allen,SL122,2025-07-06,2025-08-10,ZUR,JFK,Economy,590,Confirmed,Gold,Online,35,Leisure
+BK023,Tyler King,SL123,2025-07-07,2025-08-11,LAX,YVR,Economy,320,Confirmed,Bronze,Call Center,35,Leisure
+BK024,Samantha Wright,SL124,2025-07-08,2025-08-12,YVR,LAX,Economy,340,Confirmed,None,Online,35,Leisure
+BK025,Justin Scott,SL125,2025-07-09,2025-08-13,JFK,BOS,Economy,180,Confirmed,Silver,Mobile App,35,Business
+BK026,Brittany Torres,SL126,2025-07-10,2025-08-14,BOS,JFK,Economy,190,Confirmed,Gold,Online,35,Business
+BK027,Aaron Nguyen,SL127,2025-07-11,2025-08-15,LAX,SFO,Economy,150,Confirmed,Platinum,Online,35,Business
+BK028,Kayla Hill,SL128,2025-07-12,2025-08-16,SFO,LAX,Economy,160,Confirmed,Bronze,Online,35,Business
+BK029,Jonathan Flores,SL129,2025-07-13,2025-08-17,JFK,MIA,Economy,280,Confirmed,None,Travel Agent,35,Leisure
+BK030,Alexis Green,SL130,2025-07-14,2025-08-18,MIA,JFK,Premium Economy,420,Confirmed,Silver,Online,35,Leisure
+BK031,Nathan Adams,SL131,2025-07-15,2025-08-19,LAX,DEN,Economy,220,Confirmed,Gold,Mobile App,35,Business
+BK032,Danielle Baker,SL132,2025-07-16,2025-08-20,DEN,LAX,Economy,240,Confirmed,Platinum,Online,35,Business
+BK033,Zachary Gonzales,SL133,2025-07-17,2025-08-21,JFK,ATL,Economy,250,Pending,Bronze,Online,35,Business
+BK034,Courtney Nelson,SL134,2025-07-18,2025-08-22,ATL,JFK,Economy,270,Confirmed,None,Call Center,35,Business
+BK035,Ian Carter,SL135,2025-07-19,2025-08-23,LAX,PHX,Economy,180,Confirmed,Silver,Online,35,Leisure
+BK036,Jenna Mitchell,SL136,2025-07-20,2025-08-24,PHX,LAX,Economy,190,Confirmed,Gold,Mobile App,35,Leisure
+BK037,Eric Perez,SL137,2025-07-21,2025-08-25,JFK,ORD,Economy,220,Confirmed,Platinum,Online,35,Business
+BK038,Tiffany Roberts,SL138,2025-07-22,2025-08-26,ORD,JFK,Economy,240,Confirmed,Bronze,Online,35,Business
+BK039,Marcus Turner,SL139,2025-07-23,2025-08-27,LAX,SEA,Economy,200,Confirmed,None,Travel Agent,35,Leisure
+BK040,Lindsey Phillips,SL140,2025-07-24,2025-08-28,SEA,LAX,Economy,210,Confirmed,Silver,Online,35,Leisure
+BK041,Gregory Campbell,SL141,2025-06-10,2025-07-15,LAX,JFK,Economy,395,Confirmed,Gold,Online,35,Business
+BK042,Monica Parker,SL142,2025-06-11,2025-07-16,JFK,LAX,Business,1180,Confirmed,Platinum,Mobile App,35,Business
+BK043,Patrick Evans,SL143,2025-06-12,2025-07-17,LAX,LHR,Premium Economy,890,Confirmed,Silver,Online,35,Leisure
+BK044,Vanessa Edwards,SL144,2025-06-13,2025-07-18,LHR,LAX,Economy,670,Confirmed,Bronze,Call Center,35,Leisure
+BK045,Sean Collins,SL145,2025-06-14,2025-07-19,JFK,CDG,Economy,450,Confirmed,None,Online,35,Business
+BK046,Crystal Stewart,SL146,2025-07-25,2025-08-05,CDG,JFK,Business,1220,Confirmed,Gold,Mobile App,11,Business
+BK047,Antonio Sanchez,SL147,2025-07-26,2025-08-06,LAX,NRT,Economy,620,Confirmed,Silver,Online,11,Leisure
+BK048,Candice Morris,SL148,2025-07-27,2025-08-07,NRT,LAX,Economy,660,Confirmed,Platinum,Online,11,Leisure
+BK049,Jeremy Rogers,SL149,2025-07-28,2025-08-08,JFK,DXB,Business,1820,Pending,Bronze,Travel Agent,11,Business
+BK050,Heather Reed,SL150,2025-07-29,2025-08-09,DXB,JFK,Economy,920,Confirmed,None,Online,11,Business

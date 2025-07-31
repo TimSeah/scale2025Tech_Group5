@@ -1,0 +1,73 @@
+sensor_id,aircraft_id,sensor_type,timestamp,value,unit,threshold_min,threshold_max,status,location,alert_level
+S001,AC001,Engine Temperature,2025-08-28 14:30:00,850,Celsius,750,950,Normal,Engine 1,Green
+S002,AC001,Oil Pressure,2025-08-28 14:30:00,45,PSI,35,65,Normal,Engine 1,Green
+S003,AC001,Vibration,2025-08-28 14:30:00,2.8,G-Force,0,4.5,Normal,Engine 1,Green
+S004,AC001,Fuel Flow,2025-08-28 14:30:00,1250,GPH,1000,1500,Normal,Engine 1,Green
+S005,AC002,Engine Temperature,2025-08-28 14:35:00,920,Celsius,750,950,Warning,Engine 2,Yellow
+S006,AC002,Oil Pressure,2025-08-28 14:35:00,52,PSI,35,65,Normal,Engine 2,Green
+S007,AC002,Vibration,2025-08-28 14:35:00,3.2,G-Force,0,4.5,Normal,Engine 2,Green
+S008,AC002,Fuel Flow,2025-08-28 14:35:00,1380,GPH,1000,1500,Normal,Engine 2,Green
+S009,AC003,Hydraulic Pressure,2025-08-28 14:40:00,2850,PSI,2500,3500,Normal,Main System,Green
+S010,AC003,Landing Gear Position,2025-08-28 14:40:00,1,Binary,0,1,Normal,Main Gear,Green
+S011,AC003,Cabin Pressure,2025-08-28 14:40:00,8.2,PSI,7.5,9.0,Normal,Cabin,Green
+S012,AC003,APU Temperature,2025-08-28 14:40:00,650,Celsius,550,750,Normal,APU,Green
+S013,AC004,Engine Temperature,2025-08-28 14:45:00,875,Celsius,750,950,Normal,Engine 1,Green
+S014,AC004,Oil Pressure,2025-08-28 14:45:00,48,PSI,35,65,Normal,Engine 1,Green
+S015,AC004,Vibration,2025-08-28 14:45:00,4.2,G-Force,0,4.5,Normal,Engine 1,Green
+S016,AC004,Fuel Flow,2025-08-28 14:45:00,1325,GPH,1000,1500,Normal,Engine 1,Green
+S017,AC005,Engine Temperature,2025-08-28 14:50:00,965,Celsius,750,950,Critical,Engine 3,Red
+S018,AC005,Oil Pressure,2025-08-28 14:50:00,28,PSI,35,65,Critical,Engine 3,Red
+S019,AC005,Vibration,2025-08-28 14:50:00,5.2,G-Force,0,4.5,Critical,Engine 3,Red
+S020,AC005,Fuel Flow,2025-08-28 14:50:00,1650,GPH,1000,1500,Critical,Engine 3,Red
+S021,AC006,Hydraulic Pressure,2025-08-28 14:55:00,3200,PSI,2500,3500,Normal,Backup System,Green
+S022,AC006,Landing Gear Position,2025-08-28 14:55:00,0,Binary,0,1,Normal,Nose Gear,Green
+S023,AC006,Cabin Pressure,2025-08-28 14:55:00,8.5,PSI,7.5,9.0,Normal,Cabin,Green
+S024,AC006,APU Temperature,2025-08-28 14:55:00,725,Celsius,550,750,Normal,APU,Green
+S025,AC007,Engine Temperature,2025-08-28 15:00:00,825,Celsius,750,950,Normal,Engine 1,Green
+S026,AC007,Oil Pressure,2025-08-28 15:00:00,42,PSI,35,65,Normal,Engine 1,Green
+S027,AC007,Vibration,2025-08-28 15:00:00,2.1,G-Force,0,4.5,Normal,Engine 1,Green
+S028,AC007,Fuel Flow,2025-08-28 15:00:00,1180,GPH,1000,1500,Normal,Engine 1,Green
+S029,AC008,Engine Temperature,2025-08-28 15:05:00,890,Celsius,750,950,Normal,Engine 2,Green
+S030,AC008,Oil Pressure,2025-08-28 15:05:00,46,PSI,35,65,Normal,Engine 2,Green
+S031,AC008,Vibration,2025-08-28 15:05:00,3.8,G-Force,0,4.5,Normal,Engine 2,Green
+S032,AC008,Fuel Flow,2025-08-28 15:05:00,1420,GPH,1000,1500,Normal,Engine 2,Green
+S033,AC009,Hydraulic Pressure,2025-08-28 15:10:00,2350,PSI,2500,3500,Warning,Main System,Yellow
+S034,AC009,Landing Gear Position,2025-08-28 15:10:00,1,Binary,0,1,Normal,Main Gear,Green
+S035,AC009,Cabin Pressure,2025-08-28 15:10:00,7.8,PSI,7.5,9.0,Normal,Cabin,Green
+S036,AC009,APU Temperature,2025-08-28 15:10:00,680,Celsius,550,750,Normal,APU,Green
+S037,AC010,Engine Temperature,2025-08-28 15:15:00,855,Celsius,750,950,Normal,Engine 1,Green
+S038,AC010,Oil Pressure,2025-08-28 15:15:00,44,PSI,35,65,Normal,Engine 1,Green
+S039,AC010,Vibration,2025-08-28 15:15:00,2.6,G-Force,0,4.5,Normal,Engine 1,Green
+S040,AC010,Fuel Flow,2025-08-28 15:15:00,1285,GPH,1000,1500,Normal,Engine 1,Green
+S041,AC012,Engine Temperature,2025-08-28 15:20:00,880,Celsius,750,950,Normal,Engine 2,Green
+S042,AC012,Oil Pressure,2025-08-28 15:20:00,49,PSI,35,65,Normal,Engine 2,Green
+S043,AC012,Vibration,2025-08-28 15:20:00,3.1,G-Force,0,4.5,Normal,Engine 2,Green
+S044,AC012,Fuel Flow,2025-08-28 15:20:00,1350,GPH,1000,1500,Normal,Engine 2,Green
+S045,AC013,Hydraulic Pressure,2025-08-28 15:25:00,2950,PSI,2500,3500,Normal,Main System,Green
+S046,AC013,Landing Gear Position,2025-08-28 15:25:00,0,Binary,0,1,Normal,Nose Gear,Green
+S047,AC013,Cabin Pressure,2025-08-28 15:25:00,8.1,PSI,7.5,9.0,Normal,Cabin,Green
+S048,AC013,APU Temperature,2025-08-28 15:25:00,620,Celsius,550,750,Normal,APU,Green
+S049,AC014,Engine Temperature,2025-08-28 15:30:00,845,Celsius,750,950,Normal,Engine 1,Green
+S050,AC014,Oil Pressure,2025-08-28 15:30:00,43,PSI,35,65,Normal,Engine 1,Green
+S051,AC014,Vibration,2025-08-28 15:30:00,2.9,G-Force,0,4.5,Normal,Engine 1,Green
+S052,AC014,Fuel Flow,2025-08-28 15:30:00,1225,GPH,1000,1500,Normal,Engine 1,Green
+S053,AC015,Engine Temperature,2025-08-28 15:35:00,935,Celsius,750,950,Warning,Engine 3,Yellow
+S054,AC015,Oil Pressure,2025-08-28 15:35:00,32,PSI,35,65,Warning,Engine 3,Yellow
+S055,AC015,Vibration,2025-08-28 15:35:00,4.8,G-Force,0,4.5,Critical,Engine 3,Red
+S056,AC015,Fuel Flow,2025-08-28 15:35:00,1580,GPH,1000,1500,Critical,Engine 3,Red
+S057,AC016,Hydraulic Pressure,2025-08-28 15:40:00,3100,PSI,2500,3500,Normal,Backup System,Green
+S058,AC016,Landing Gear Position,2025-08-28 15:40:00,1,Binary,0,1,Normal,Main Gear,Green
+S059,AC016,Cabin Pressure,2025-08-28 15:40:00,8.4,PSI,7.5,9.0,Normal,Cabin,Green
+S060,AC016,APU Temperature,2025-08-28 15:40:00,695,Celsius,550,750,Normal,APU,Green
+S061,AC017,Engine Temperature,2025-08-28 15:45:00,820,Celsius,750,950,Normal,Engine 1,Green
+S062,AC017,Oil Pressure,2025-08-28 15:45:00,41,PSI,35,65,Normal,Engine 1,Green
+S063,AC017,Vibration,2025-08-28 15:45:00,2.4,G-Force,0,4.5,Normal,Engine 1,Green
+S064,AC017,Fuel Flow,2025-08-28 15:45:00,1195,GPH,1000,1500,Normal,Engine 1,Green
+S065,AC018,Engine Temperature,2025-08-28 15:50:00,865,Celsius,750,950,Normal,Engine 2,Green
+S066,AC018,Oil Pressure,2025-08-28 15:50:00,47,PSI,35,65,Normal,Engine 2,Green
+S067,AC018,Vibration,2025-08-28 15:50:00,3.4,G-Force,0,4.5,Normal,Engine 2,Green
+S068,AC018,Fuel Flow,2025-08-28 15:50:00,1365,GPH,1000,1500,Normal,Engine 2,Green
+S069,AC020,Hydraulic Pressure,2025-08-28 15:55:00,2750,PSI,2500,3500,Normal,Main System,Green
+S070,AC020,Landing Gear Position,2025-08-28 15:55:00,0,Binary,0,1,Normal,Nose Gear,Green
+S071,AC020,Cabin Pressure,2025-08-28 15:55:00,8.0,PSI,7.5,9.0,Normal,Cabin,Green
+S072,AC020,APU Temperature,2025-08-28 15:55:00,665,Celsius,550,750,Normal,APU,Green
