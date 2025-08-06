@@ -1,0 +1,3 @@
+[submodule "technical-demo"]
+	path = technical-demo
+	url = https://github.com/ongyixin/scale2025Tech_Group5.git
