@@ -261,7 +261,7 @@ The `sample_data/` directory contains comprehensive CSV datasets that power the 
 ## 📹 Demo Resources
 
 ### Presentation Materials
-- **🎨 Interactive Presentation**: [View on Canva](https://www.canva.com/design/DAGucPlNLgE/Ze06IBRnx33xkoAK-Fyoeg/view?utm_content=DAGucPlNLgE&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h6360148e7f) - Live presentation deck
+- **🎨 Interactive Presentation**: [View on Canva](https://www.canva.com/design/DAGucPlNLgE/Ze06IBRnx33xkoAK-Fyoeg/view) - Live presentation deck
 - **Complete Solution Demo**: [SAP_Full.gif](presentation/SAP_Full.gif) - Comprehensive walkthrough
 - **Presentation Deck With Speaker Notes**: [SAP_Speaker.pdf](presentation/SAP_Speaker.pdf) - Full presentation slides
 - **Video Demo**: [SAP.mp4](presentation/SAP.mp4) - Complete solution demonstration
