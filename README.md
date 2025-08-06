@@ -98,6 +98,30 @@ Our solution includes realistic datasets covering all operational aspects:
 
 ## 🛠️ Technical Implementation
 
+### SAP UI5 Operations Dashboard
+Our flagship **SkyLink Airlines Operations Hub** demonstrates real-time operational intelligence through a comprehensive SAP UI5 application featuring:
+
+#### Core Dashboard Features
+- **Fleet Health & Utilization**: Real-time monitoring of aircraft status with 94.2% overall health score
+- **Predictive Maintenance Alerts**: AI-powered maintenance scheduling with confidence scoring
+- **Ticket Sales Analytics**: Dynamic sales trends with revenue tracking and demand forecasting
+- **Integrated AI Assistant**: "Joule" chatbot for natural language queries and instant insights
+- **Glass-morphism UI**: Modern design with semi-transparent glass effects and responsive layouts
+
+#### Technical Architecture
+- **Frontend Framework**: SAP UI5 1.120.0 with sap_horizon_dark theme
+- **UI Components**: Comprehensive sap.m, sap.suite.ui.commons, sap.viz, sap.f, and sap.tnt libraries
+- **Data Models**: JSON-based models for fleet data, ticket sales, and operational metrics
+- **Styling**: Custom CSS with backdrop-filter effects and gradient backgrounds
+- **Navigation**: Multi-tab interface with Dashboard, Fleet Management, Maintenance, and Analytics
+
+#### Key Capabilities
+- **Real-time Fleet Monitoring**: Live aircraft status with health scores and utilization metrics
+- **Predictive Analytics**: Maintenance alerts with confidence levels and recommended actions
+- **Revenue Intelligence**: Ticket sales trends with geographic and temporal analysis
+- **Interactive Chatbot**: Joule AI assistant for contextual operational support
+- **Responsive Design**: Mobile-optimized interface for field operations
+
 ### SAP Technology Stack
 - **Frontend**: SAP UI5 with responsive design for enterprise-grade user experience
 - **Backend Integration**: SAP Integration Suite for seamless data connectivity
@@ -122,17 +146,13 @@ scale2025Tech_Group5/
 │   ├── SAP_Full.gif                 # Complete solution demo
 │   ├── SAP_1.gif                    # Challenge 1 demo
 │   └── SAP_2.gif                    # Challenge 2 demo
-├── technical-demo/                   # SAP UI5 application
-│   ├── package.json                 # Node.js dependencies
-│   ├── ui5.yaml                     # UI5 tooling configuration
-│   └── webapp/                      # UI5 application source
-│       ├── Component.js             # Main application component
-│       ├── index.html               # Application entry point
-│       ├── manifest.json            # App descriptor
-│       ├── controller/              # MVC controllers
-│       ├── view/                    # UI5 XML views
-│       ├── model/                   # Data models and services
-│       └── css/                     # Custom styling
+├── technical-demo/ (Git Submodule)    # SAP UI5 Operations Dashboard
+│   ├── index.html                   # Standalone operations hub application
+│   ├── README.md                    # Technical implementation guide
+│   └── data/                        # JSON data models
+│       ├── fleetData.json          # Aircraft health and utilization
+│       ├── ticketSales.json        # Sales trends and revenue data
+│       └── chatHistory.json        # AI assistant conversation logs
 ├── sample_data/                      # Comprehensive datasets
 │   ├── bookings.csv                 # Booking system data
 │   ├── flight_schedule.csv          # Flight operations data
@@ -200,27 +220,40 @@ Our solution achieved **2nd Runner Up** recognition, excelling across all evalua
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (version 16 or higher)
-- SAP UI5 CLI (`npm install -g @ui5/cli`)
-- Git for version control
+- Modern web browser (Chrome, Firefox, Safari, Edge)
+- Git for version control and submodule management
+- Optional: Local web server (Python, Node.js, or VS Code Live Server extension)
+- Git LFS for handling large presentation files
 
 ### Quick Start
 ```bash
-# Clone the repository
-git clone https://github.com/TimSeah/scale2025Tech_Group5.git
+# Clone the repository with submodules
+git clone --recursive https://github.com/TimSeah/scale2025Tech_Group5.git
 cd scale2025Tech_Group5
 
-# Navigate to technical demo
+# Navigate to technical demo (operations dashboard)
 cd technical-demo
 
-# Install dependencies
-npm install
+# Open the operations dashboard
+# Option 1: Open index.html directly in a web browser
+start index.html
 
-# Start the UI5 development server
-ui5 serve
+# Option 2: Use a local web server (recommended)
+# With Python 3
+python -m http.server 8000
 
-# Access the application at http://localhost:8080
+# With Node.js (if http-server is installed)
+npx http-server
+
+# Access the SkyLink Operations Hub at http://localhost:8000
 ```
+
+### Live Demo Features
+- **Fleet Dashboard**: Monitor aircraft health scores and utilization rates
+- **Predictive Maintenance**: View AI-generated maintenance alerts with confidence levels
+- **Ticket Sales Analytics**: Explore revenue trends and demand patterns
+- **Joule AI Assistant**: Interact with the intelligent chatbot for operational insights
+- **Glass-morphism Interface**: Experience the modern, responsive design optimized for operations
 
 ### Dataset Exploration
 The `sample_data/` directory contains comprehensive CSV datasets that power the analytics and demonstrate real-world airline operational patterns. These datasets are designed to showcase the integration capabilities and predictive analytics features of our SAP solution.
